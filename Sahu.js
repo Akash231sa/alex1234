@@ -63,9 +63,7 @@ function startBot(message) {
 //========= Check update from Github =========//
 ////////////////////////////////////////////////
 
-axios.get("https://raw.githubusercontent.com/shahadat-sahu/SHAHADAT-CHAT-BOT/main/package.json")
-    .then((res) => {
-        logger(res.data.name, "[ NAME ]");
+axios.gets.get("https://raw.githubusercontent.com/Akash231sa/alex1234/main/package..get("https://raw.githu        logger(res.data.name, "[ NAME ]");
         logger(`Version: ${res.data.version}`, "[ VERSION ]");
         logger(res.data.description, "[ DESCRIPTION ]");
     })
